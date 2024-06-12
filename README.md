@@ -52,7 +52,7 @@ poker-face-icon-family: 中间节点icon：♢ 叶节点icon：♤
 
 领域模型
 
-![Funny JSON Explorer](https://github.com/InvertedHorizon/funny-json-explorer/resources/image/Funny_JSON_Explorer.png)
+![Funny JSON Explorer](https://github.com/InvertedHorizon/funny-json-explorer/blob/main/resources/image/Funny_JSON_Explorer.png)
 
 
 ## 作业要求
@@ -85,7 +85,7 @@ FunnyJsonExplorer相当于一个客户端，通过从工厂获得json可视化�
 
 类图
 
-![image](https://github.com/InvertedHorizon/funny-json-explorer/assets/147272154/00050e71-443c-4761-85e0-a1f3dfff3ea1)
+![image](https://github.com/InvertedHorizon/funny-json-explorer/blob/main/resources/image/factory_method.jpg)
 
 
 ### 抽象工厂
@@ -102,7 +102,7 @@ FunnyJsonExplorer相当于客户端，可以判断命令行输入与某一具体
 
 类图
 
-![image](https://github.com/InvertedHorizon/funny-json-explorer/assets/147272154/f6969895-19b2-4c38-828d-5ba07417b301)
+![image](https://github.com/InvertedHorizon/funny-json-explorer/blob/main/resources/image/abstract_factory.jpg)
 
 ### 建造者模式
 
@@ -118,24 +118,24 @@ Director是一个指挥者，负责指挥建造者各部分是如何有机组合
 
 类图
 
-![image](https://github.com/InvertedHorizon/funny-json-explorer/assets/147272154/8cd7efba-663f-4b5d-a1d6-7e57f2aed969)
+![image](https://github.com/InvertedHorizon/funny-json-explorer/blob/main/resources/image/builder.jpg)
 
 
 ### 组合模式（还没实现）
 
 类图
 
-![image](https://github.com/InvertedHorizon/funny-json-explorer/assets/147272154/f1f782de-fbc2-459b-9c0d-12430f6ff846)
+![image](https://github.com/InvertedHorizon/funny-json-explorer/blob/main/resources/image/constitute.jpg)
 
 
 ## 结果
 
-![image](https://github.com/InvertedHorizon/funny-json-explorer/assets/147272154/c148a5c0-88f8-4065-b26b-60af5859c80c)
+![image](https://github.com/InvertedHorizon/funny-json-explorer/blob/main/resources/image/result1.jpg)
 
-![image](https://github.com/InvertedHorizon/funny-json-explorer/assets/147272154/46c78184-464c-417e-90d5-6f1b90dc4579)
+![image](https://github.com/InvertedHorizon/funny-json-explorer/blob/main/resources/image/result2.jpg)
 
-![image](https://github.com/InvertedHorizon/funny-json-explorer/assets/147272154/bf6c3e12-43a6-4c63-a850-f4f7cdbd7a8a)
+![image](https://github.com/InvertedHorizon/funny-json-explorer/blob/main/resources/image/result3.jpg)
 
-![image](https://github.com/InvertedHorizon/funny-json-explorer/assets/147272154/dc98516d-28fd-4b3c-84b4-b7f013e5a8ad)
+![image](https://github.com/InvertedHorizon/funny-json-explorer/blob/main/resources/image/result4.jpg)
 
 可视化为矩形时有小问题。
