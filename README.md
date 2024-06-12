@@ -65,16 +65,24 @@ poker-face-icon-family: 中间节点icon：♢ 叶节点icon：♤
 以下结果使用java实现，图标族还没实现通过配置文件的方式配置，只是使用类来模拟。
 
 ### 工厂方法
+
 说明
 StyleVisualFactory是一个抽象工厂，负责创建不同的json可视化类型，比如tree，rectangle等；
 TreeFactory是其中一种具体工厂，负责创建tree类型的可视化数据；
 StyleVisualJson是一个抽象产品，负责创建json可视化类型的具体实现；
 Tree是其中一种具体产品，负责实现可以使得json数据可视化为tree结构的具体对象；
 FunnyJsonExplorer相当于一个客户端，通过从工厂获得json可视化模型以及icon，结合可视化。
+
 类图
 ![image](https://github.com/InvertedHorizon/funny-json-explorer/assets/147272154/11e71c89-f6c7-46d6-91b0-7361e5e4e813)
 
 结果
+![image](https://github.com/InvertedHorizon/funny-json-explorer/assets/147272154/a94a2c6f-e59b-46f3-85c2-5ebd369be96e)
+
+![image](https://github.com/InvertedHorizon/funny-json-explorer/assets/147272154/46c78184-464c-417e-90d5-6f1b90dc4579)
+
+![image](https://github.com/InvertedHorizon/funny-json-explorer/assets/147272154/af88f7b8-aa10-45f8-b7ac-df11b53d6cb2)
+可视化为矩形时有小问题。
 
 ### 抽象工厂
 说明
@@ -84,6 +92,7 @@ TreeWeather是其中一个具体工厂，负责创建一组相关的产品，比
 FunnyJsonExplorer相当于客户端，可以判断命令行输入与某一具体工厂是否相符，符合则返回该工厂的产品，组合进行可视化。
 
 类图
+
 
 结果
 
