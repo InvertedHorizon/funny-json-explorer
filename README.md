@@ -74,17 +74,11 @@ Tree是其中一种具体产品，负责实现可以使得json数据可视化为
 FunnyJsonExplorer相当于一个客户端，通过从工厂获得json可视化模型以及icon，结合可视化。
 
 类图
-![image](https://github.com/InvertedHorizon/funny-json-explorer/assets/147272154/11e71c89-f6c7-46d6-91b0-7361e5e4e813)
+![image](https://github.com/InvertedHorizon/funny-json-explorer/assets/147272154/00050e71-443c-4761-85e0-a1f3dfff3ea1)
 
-结果
-![image](https://github.com/InvertedHorizon/funny-json-explorer/assets/147272154/a94a2c6f-e59b-46f3-85c2-5ebd369be96e)
-
-![image](https://github.com/InvertedHorizon/funny-json-explorer/assets/147272154/46c78184-464c-417e-90d5-6f1b90dc4579)
-
-![image](https://github.com/InvertedHorizon/funny-json-explorer/assets/147272154/af88f7b8-aa10-45f8-b7ac-df11b53d6cb2)
-可视化为矩形时有小问题。
 
 ### 抽象工厂
+
 说明
 将style和icon看作两类产品，某一种style和icon之间视为有相关性；
 StyleAndVisualFactory是一个抽象工厂，负责创建style和icon两个产品；
@@ -92,9 +86,7 @@ TreeWeather是其中一个具体工厂，负责创建一组相关的产品，比
 FunnyJsonExplorer相当于客户端，可以判断命令行输入与某一具体工厂是否相符，符合则返回该工厂的产品，组合进行可视化。
 
 类图
-
-
-结果
+![image](https://github.com/InvertedHorizon/funny-json-explorer/assets/147272154/f6969895-19b2-4c38-828d-5ba07417b301)
 
 ### 建造者模式
 说明
@@ -104,9 +96,23 @@ ConcreteBuilder1是一个具体建造者，具体定义了复杂产品各部分�
 Director是一个指挥者，负责指挥建造者各部分是如何有机组合成一个复杂产品的。
 
 类图
+![image](https://github.com/InvertedHorizon/funny-json-explorer/assets/147272154/8cd7efba-663f-4b5d-a1d6-7e57f2aed969)
 
-结果
 
 ### 组合模式（还没实现）
 
+类图
+![image](https://github.com/InvertedHorizon/funny-json-explorer/assets/147272154/f1f782de-fbc2-459b-9c0d-12430f6ff846)
 
+
+## 结果
+
+![image](https://github.com/InvertedHorizon/funny-json-explorer/assets/147272154/c148a5c0-88f8-4065-b26b-60af5859c80c)
+
+![image](https://github.com/InvertedHorizon/funny-json-explorer/assets/147272154/46c78184-464c-417e-90d5-6f1b90dc4579)
+
+![image](https://github.com/InvertedHorizon/funny-json-explorer/assets/147272154/bf6c3e12-43a6-4c63-a850-f4f7cdbd7a8a)
+
+![image](https://github.com/InvertedHorizon/funny-json-explorer/assets/147272154/dc98516d-28fd-4b3c-84b4-b7f013e5a8ad)
+
+可视化为矩形时有小问题。
