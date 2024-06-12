@@ -52,7 +52,7 @@ poker-face-icon-family: 中间节点icon：♢ 叶节点icon：♤
 
 领域模型
 
-![Funny JSON Explorer](https://github.com/InvertedHorizon/funny-json-explorer/assets/147272154/8ebe1472-7ae8-4181-9ba8-8a72af2f8f14)
+![Funny JSON Explorer](https://github.com/InvertedHorizon/funny-json-explorer/resources/image/Funny_JSON_Explorer.png)
 
 
 ## 作业要求
