@@ -121,12 +121,16 @@ Director是一个指挥者，负责指挥建造者各部分是如何有机组合
 ![image](https://github.com/InvertedHorizon/funny-json-explorer/blob/main/resources/image/builder.jpg)
 
 
-### 组合模式（还没实现）
+### 组合模式（具体见迭代器加访问模式里面的Node的结构）
 
 类图
 
 ![image](https://github.com/InvertedHorizon/funny-json-explorer/blob/main/resources/image/constitute.jpg)
 
+### 重构实现迭代器模式加访问者模式
+
+类图
+![image](https://github.com/InvertedHorizon/funny-json-explorer/blob/main/resources/image/iteratorAndVisitor.jpg)
 
 ## 结果
 
