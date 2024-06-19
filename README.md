@@ -130,7 +130,18 @@ Director是一个指挥者，负责指挥建造者各部分是如何有机组合
 ### 重构实现迭代器模式加访问者模式
 
 类图
+
 ![image](https://github.com/InvertedHorizon/funny-json-explorer/blob/main/resources/image/iteratorAndVisitor.jpg)
+
+说明
+
+在访问者模式中，将节点Node视为Element，将容器节点Container与叶子节点Leaf视为ConcreteElement，这里也可以看成结合有组合模式，节点有接受访问的方法accept，
+
+在节点中设置了前缀后缀的属性，将设置前缀和后缀的操作视作访问者访问元素时进行的操作，不同的style和不同的icon都可以通过设置具体访问者来设置前缀或者后缀实现，
+
+objectStructure负责组织访问者对不同的元素有序访问。
+
+实现了对树的一个具体迭代器，内部使用深度优先搜索实现，因为树形结构等结构的可视化基本是先序遍历。
 
 ## 结果
 
